@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #874893;
+    color: white;
+}
+
+#background {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    z-index: +2;
+}
+
+#element1, #element2 {
+    animation: text 1s linear 7s forwards ;
+}
+
+@keyframes text {
+    100% {
+        opacity: 0;
+    }
+}
+
+.wish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    opacity: 0;
+    animation: wish 1s ease-in-out 7s forwards;
+}
+
+@keyframes wish {
+    100% {
+        opacity: 1;
+    }
+}
+
+#color {
+    color: #e247ff;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+body img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+}
+
+#kiss1 {
+    top: -10%;
+    left: -5%;
+    animation: kiss 0.1s ease-in-out 8s forwards;
+    opacity: 0;
+}
+
+#kiss2 {
+    top: 0;
+    right: 0;
+    animation: kiss 0.1s ease-in-out 8.1s forwards;
+    opacity: 0;
+}
+
+#kiss3 {
+    top: 55%;
+    right: 55%;
+    animation: kiss 0.1s ease-in-out 8.2s forwards;
+    opacity: 0;
+}
+
+#kiss4 {
+    top: 0;
+    left: 20%;
+    animation: kiss 0.1s ease-in-out 8.3s forwards;
+    opacity: 0;
+}
+
+#kiss5 {
+    top: 10%;
+    right: 15%;
+    animation: kiss 0.1s ease-in-out 8.4s forwards;
+    opacity: 0;
+}
+
+#kiss6 {
+    top: 15%;
+    right: 70%;
+    animation: kiss 0.1s ease-in-out 8.5s forwards;
+    opacity: 0;
+}
+
+#kiss7 {
+    top: 125px;
+    left: 60px;
+    animation: kiss 0.1s ease-in-out 8.6s forwards;
+    opacity: 0;
+}
+
+#kiss8 {
+    top: 125px;
+    right: -5px;
+    animation: kiss 0.1s ease-in-out 8.7s forwards;
+    opacity: 0;
+}
+
+#kiss9 {
+    top: 70%;
+    right: 65%;
+    animation: kiss 0.1s ease-in-out 8.8s forwards;
+    opacity: 0;
+}
+
+#kiss10 {
+    top: 320px;
+    left: 140px;
+    animation: kiss 0.1s ease-in-out 8.9s forwards;
+    opacity: 0;
+}
+
+#kiss11 {
+    top: 448px;
+    right: 0;
+    animation: kiss 0.1s ease-in-out 9s forwards;
+    opacity: 0;
+}
+
+#kiss12 {
+    top: 75%;
+    right: 30%;
+    animation: kiss 0.1s ease-in-out 9.1s forwards;
+    opacity: 0;
+}
+
+#kiss13 {
+    bottom: -30px;
+    left: 0;
+    animation: kiss 0.1s ease-in-out 9.2s forwards;
+    opacity: 0;
+}
+
+#kiss14 {
+    top: 200px;
+    right: 50px;
+    animation: kiss 0.1s ease-in-out 9.3s forwards;
+    opacity: 0;
+}
+
+#kiss15 {
+    top: 40%;
+    right: 70%;
+    animation: kiss 0.1s ease-in-out 9.4s forwards;
+    opacity: 0;
+}
+#kiss16 {
+    top: 45%;
+    right: -10%;
+    animation: kiss 0.1s ease-in-out 9.5s forwards;
+    opacity: 0;
+}
+#kiss17 {
+    top: 65%;
+    right: -10%;
+    animation: kiss 0.1s ease-in-out 9.6s forwards;
+    opacity: 0;
+}
+
+@keyframes kiss {
+    100% {
+        opacity: 1;
+    }
+}
